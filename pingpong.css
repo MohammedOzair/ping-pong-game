@@ -1,0 +1,121 @@
+body {
+            margin: 0;
+            padding: 20px;
+            background: #111;
+            background-image: url('assets/ceriien-arts-sleeper-suicunelayoutpng-wmrk.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        
+        canvas {
+            border: 2px solid #fff;
+            background: #222;
+        }
+        
+        .settings-button-container {
+            margin-top: 20px;
+        }
+        
+        .settings-button {
+            background: #444;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .settings-button:hover {
+            background: #555;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background: #333;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            max-width: 400px;
+        }
+        
+        .modal-content button {
+            background: #0f0;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        
+        .modal-content button:hover {
+            background: #0a0;
+        }
+        
+        .difficulty-section {
+            margin: 20px 0;
+        }
+        
+        .difficulty-btn {
+            background: #555;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .difficulty-btn:hover {
+            background: #666;
+        }
+        
+        .difficulty-btn.active {
+            background: #0f0;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .instructions {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .controls-info {
+            font-size: 14px;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+        
+        .score {
+            color: white;
+            font-size: 24px;
+            margin-top: 10px;
+            text-align: center;
+        }
